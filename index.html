@@ -43,7 +43,7 @@
             text-decoration: underline;
         }
         .info-box {
-            background-color: #f8f9fa;
+            background-color: #e8f4f8;
             border-left: 4px solid #3498db;
             padding: 15px;
             margin: 20px 0;
@@ -51,6 +51,12 @@
         .warning-box {
             background-color: #fff3cd;
             border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .success-box {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
             padding: 15px;
             margin: 20px 0;
         }
@@ -64,6 +70,15 @@
             font-size: 14px;
             margin-top: 30px;
         }
+        .age-badge {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -71,55 +86,65 @@
     <h1>Privacy Policy</h1>
     
     <div class="info-box">
-        <p><strong>Last Updated:</strong> January 15, 2025</p>
-        <p><strong>Version:</strong> 1.1</p>
         <p><strong>Application:</strong> Penguins: Merge & War</p>
         <p><strong>Developer:</strong> Oftond</p>
+        <p><strong>Age Rating:</strong> <span class="age-badge">6+</span></p>
+        <p><strong>Last Updated:</strong> March 1, 2026</p>
+        <p><strong>Version:</strong> 1.2</p>
     </div>
 
     <p>This privacy policy applies to the <strong>Penguins: Merge & War</strong> app (hereby referred to as "Application") for mobile devices that was created by <strong>Oftond</strong> (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".</p>
 
+    <h2>Age Restriction</h2>
+    
+    <div class="success-box">
+        <p><strong>👶 This Application is intended for users 6 years of age and older.</strong></p>
+    </div>
+
+    <p>The Application is designed and intended for people aged 6 years and above. The Service Provider does not knowingly collect personally identifiable information from children under 6 years of age.</p>
+
     <h2>Information Collection and Use</h2>
     
-    <p>The Application collects information when you download and use it. This information may include:</p>
-    
-    <ul>
-        <li>Your device's Internet Protocol address (e.g. IP address)</li>
-        <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
-        <li>The time spent on the Application</li>
-        <li>The operating system you use on your mobile device</li>
-        <li>Device identifiers (Advertising ID, Device ID)</li>
-        <li>Crash data and performance metrics</li>
-    </ul>
+    <div class="success-box">
+        <p><strong>✅ The Application itself does NOT collect any user information.</strong></p>
+    </div>
+
+    <p>The Game <strong>Penguins: Merge & War</strong> does not collect, store, or transmit any personal or non-personal information from users. All gameplay data is stored locally on your device.</p>
 
     <p><strong>The Application does NOT collect:</strong></p>
     <ul>
-        <li>❌ Precise location information</li>
-        <li>❌ Personal names or email addresses</li>
-        <li>❌ Phone numbers</li>
+        <li>❌ IP address or network information</li>
+        <li>❌ Device identifiers (Advertising ID, Device ID)</li>
+        <li>❌ Location information (precise or approximate)</li>
+        <li>❌ Personal names, email addresses, or phone numbers</li>
+        <li>❌ App usage data or play time</li>
+        <li>❌ Operating system or device model information</li>
         <li>❌ Payment information (processed by app stores only)</li>
-        <li>❌ Contacts or call logs</li>
+        <li>❌ Contacts, call logs, or any other personal data</li>
     </ul>
 
     <p>The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features.</p>
 
-    <h2>Advertising</h2>
+    <h2>Third-Party SDK: Yandex Mobile Ads</h2>
     
     <div class="warning-box">
-        <p><strong>⚠️ This Application displays third-party advertisements.</strong></p>
+        <p><strong>⚠️ This Application uses Yandex Mobile Ads SDK for displaying advertisements.</strong></p>
+        <p><strong>Yandex Mobile Ads SDK may collect information independently from the Application.</strong></p>
     </div>
 
-    <p>This Application uses third-party advertising services to display ads. These services may collect and use information about your device to show relevant advertisements.</p>
+    <p>While the Application itself does not collect any data, it integrates <strong>Yandex Mobile Ads SDK</strong> for displaying advertisements. This third-party SDK may collect and process certain information according to Yandex's own privacy policy.</p>
 
     <h3>Yandex Mobile Ads (Yandex Advertising Network)</h3>
     
     <ul>
         <li><strong>Purpose:</strong> Displaying personalized and non-personalized advertisements</li>
-        <li><strong>Data collected:</strong> Device ID, Advertising ID (AAID/OAID), IP address, approximate location, app usage data, device model, OS version</li>
+        <li><strong>Data that may be collected by Yandex SDK:</strong> Device ID, Advertising ID (AAID/OAID), IP address, approximate location, app usage data, device model, OS version</li>
         <li><strong>Privacy Policy:</strong> <a href="https://yandex.ru/legal/confidential/" target="_blank" rel="noopener noreferrer">https://yandex.ru/legal/confidential/</a></li>
         <li><strong>Terms of Use:</strong> <a href="https://yandex.ru/legal/mobile_ads_termsofuse/" target="_blank" rel="noopener noreferrer">https://yandex.ru/legal/mobile_ads_termsofuse/</a></li>
         <li><strong>Opt-out:</strong> You can reset your Advertising ID in device settings or enable "Opt-out of Ads Personalization"</li>
     </ul>
+
+    <p><strong>Important:</strong> The Service Provider has no control over what data Yandex Mobile Ads SDK collects. Please refer to Yandex's Privacy Policy for complete information about their data practices.</p>
 
     <p><strong>You can opt-out of personalized advertising by:</strong></p>
     <ul>
@@ -128,38 +153,32 @@
         <li>Installing apps that limit ad tracking</li>
     </ul>
 
-    <h2>Third Party Services</h2>
+    <h2>Other Third-Party Services</h2>
 
-    <p>The Application may incorporate software from third parties ("Third-Party Software") as well as services from third parties ("Third-Party Services"). Such Third-Party Software and Third-Party Services may be subject to additional terms and conditions, including privacy policies, of the respective third party. Your use of such Third-Party Software and Third-Party Services is at your own risk.</p>
+    <p>The Application may incorporate software from third parties ("Third-Party Software") as well as services from third parties ("Third-Party Services"). Such Third-Party Software and Third-Party Services may be subject to additional terms and conditions, including privacy policies, of the respective third party.</p>
 
-    <p><strong>Third-party services used by this Application:</strong></p>
+    <p><strong>Third-party services that may be used by this Application:</strong></p>
 
     <ul>
         <li>
             <strong>Unity Technologies</strong>
             <ul>
-                <li>Purpose: Game engine, analytics, and crash reporting</li>
+                <li>Purpose: Game engine</li>
                 <li>Privacy Policy: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">https://unity.com/legal/privacy-policy</a></li>
-            </ul>
-        </li>
-        <li>
-            <strong>Yandex Mobile Ads (Yandex Advertising Network)</strong>
-            <ul>
-                <li>Purpose: Displaying advertisements</li>
-                <li>Privacy Policy: <a href="https://yandex.ru/legal/confidential/" target="_blank" rel="noopener noreferrer">https://yandex.ru/legal/confidential/</a></li>
+                <li><em>Note: Unity Analytics is NOT used in this Application</em></li>
             </ul>
         </li>
         <li>
             <strong>Huawei Mobile Services (HMS Core)</strong>
             <ul>
-                <li>Purpose: App distribution, analytics, and push notifications (for AppGallery)</li>
+                <li>Purpose: App distribution and basic services (for AppGallery)</li>
                 <li>Privacy Policy: <a href="https://www.huawei.com/en/privacy-policy" target="_blank" rel="noopener noreferrer">https://www.huawei.com/en/privacy-policy</a></li>
             </ul>
         </li>
         <li>
             <strong>Google Play Services</strong>
             <ul>
-                <li>Purpose: App distribution and analytics (for Google Play)</li>
+                <li>Purpose: App distribution (for Google Play)</li>
                 <li>Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
             </ul>
         </li>
@@ -167,13 +186,7 @@
 
     <h2>Data Disclosure</h2>
 
-    <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
-
-    <ul>
-        <li>As required by law, such as to comply with a subpoena, or similar legal process</li>
-        <li>When they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request</li>
-        <li>With trusted service providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement</li>
-    </ul>
+    <p>Since the Application itself does not collect any user data, the Service Provider has no user data to disclose. However, third-party services integrated into the Application (such as Yandex Mobile Ads SDK) may share information according to their own privacy policies.</p>
 
     <h2>Opt-Out Rights</h2>
 
@@ -183,48 +196,57 @@
     <ul>
         <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization</li>
         <li><strong>Huawei:</strong> Settings → Privacy → Ads → Opt out of ad personalization</li>
+        <li><strong>Yandex:</strong> Follow Yandex's opt-out instructions in their Privacy Policy</li>
     </ul>
 
     <h2>Data Retention Policy</h2>
 
-    <p>The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at <a href="mailto:oftond.support@gmail.com">oftond.support@gmail.com</a> and they will respond in a reasonable time.</p>
+    <div class="success-box">
+        <p><strong>✅ The Application does not store any user data on servers.</strong></p>
+    </div>
+
+    <p>Since the Application does not collect any user information, there is no data retention policy applicable to user data. All gameplay data is stored locally on your device and is deleted when you uninstall the Application.</p>
+
+    <p>If you have any questions, please contact the Service Provider at <a href="mailto:oftond.official@mail.ru">oftond.official@mail.ru</a>.</p>
 
     <h2>Children's Privacy</h2>
 
     <div class="info-box">
-        <p><strong>👶 This Application is not intended for children under 13 years of age.</strong></p>
+        <p><strong>👶 This Application is intended for children 6 years of age and older.</strong></p>
     </div>
 
-    <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
+    <p>The Application is designed to be safe for children aged 6 and above. The Service Provider does not knowingly collect personally identifiable information from children under 6 years of age.</p>
 
-    <p>The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discovers that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (<a href="mailto:oftond.support@gmail.com">oftond.support@gmail.com</a>) so that they will be able to take the necessary actions.</p>
+    <p>The Service Provider does not knowingly collect personally identifiable information from children. In the case the Service Provider discovers that a child under 6 has provided personal information through third-party services, please contact the Service Provider (<a href="mailto:oftond.official@mail.ru">oftond.official@mail.ru</a>) so that they will be able to take the necessary actions.</p>
+
+    <p><strong>Note:</strong> Third-party advertising services (Yandex Mobile Ads) may have their own age restrictions. Parents are advised to review the privacy policies of third-party services.</p>
 
     <h2>Security</h2>
 
-    <p>The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.</p>
+    <p>Since the Application does not collect or transmit any user data, there is no risk of data breach from the Application itself. All game data is stored locally on your device.</p>
 
     <h2>Changes to This Privacy Policy</h2>
 
     <p>This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.</p>
 
-    <p>This privacy policy is effective as of <strong>January 15, 2025</strong>.</p>
+    <p>This privacy policy is effective as of <strong>March 1, 2026</strong>.</p>
 
     <h2>Your Consent</h2>
 
-    <p>By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.</p>
+    <p>By using the Application, you are consenting to the use of third-party services (such as Yandex Mobile Ads SDK) as set forth in this Privacy Policy. The Application itself does not process any of your information.</p>
 
     <h2>Contact Us</h2>
 
     <div class="info-box">
         <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at:</p>
-        <p>📧 <a href="mailto:oftond.support@gmail.com">oftond.support@gmail.com</a></p>
+        <p>📧 <a href="mailto:oftond.official@mail.ru">oftond.official@mail.ru</a></p>
     </div>
 
     <hr>
 
     <div class="footer">
-        <p>This privacy policy page was generated by <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a></p>
-        <p>© 2025 Oftond. All rights reserved.</p>
+        <p>© 2026 Oftond. All rights reserved.</p>
+        <p>Penguins: Merge & War - Privacy Policy Version 1.2</p>
     </div>
 
 </body>
