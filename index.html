@@ -79,6 +79,23 @@
             font-weight: bold;
             margin: 10px 0;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
     </style>
 </head>
 <body>
@@ -89,8 +106,8 @@
         <p><strong>Application:</strong> Penguins: Merge & War</p>
         <p><strong>Developer:</strong> Oftond</p>
         <p><strong>Age Rating:</strong> <span class="age-badge">6+</span></p>
-        <p><strong>Last Updated:</strong> March 1, 2026</p>
-        <p><strong>Version:</strong> 1.2</p>
+        <p><strong>Last Updated:</strong> January 15, 2025</p>
+        <p><strong>Version:</strong> 1.3</p>
     </div>
 
     <p>This privacy policy applies to the <strong>Penguins: Merge & War</strong> app (hereby referred to as "Application") for mobile devices that was created by <strong>Oftond</strong> (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".</p>
@@ -105,23 +122,60 @@
 
     <h2>Information Collection and Use</h2>
     
-    <div class="success-box">
-        <p><strong>✅ The Application itself does NOT collect any user information.</strong></p>
+    <div class="warning-box">
+        <p><strong>⚠️ Important: Data Collection Summary</strong></p>
+        <p>The Application itself does NOT directly collect or store user information on our servers. However, third-party SDKs integrated into the Application (such as Yandex Mobile Ads) may collect certain information for advertising and analytics purposes.</p>
     </div>
 
-    <p>The Game <strong>Penguins: Merge & War</strong> does not collect, store, or transmit any personal or non-personal information from users. All gameplay data is stored locally on your device.</p>
+    <h3>Data Collected by Third-Party SDKs</h3>
+    
+    <table>
+        <tr>
+            <th>Data Type</th>
+            <th>Collected By</th>
+            <th>Purpose</th>
+            <th>Shared with Third Parties</th>
+        </tr>
+        <tr>
+            <td>Device Identifiers (Advertising ID, OAID, AAID)</td>
+            <td>Yandex Mobile Ads SDK</td>
+            <td>Advertising</td>
+            <td>Yes (Yandex)</td>
+        </tr>
+        <tr>
+            <td>IP Address</td>
+            <td>Yandex Mobile Ads SDK</td>
+            <td>Advertising, Analytics</td>
+            <td>Yes (Yandex)</td>
+        </tr>
+        <tr>
+            <td>Approximate Location</td>
+            <td>Yandex Mobile Ads SDK</td>
+            <td>Advertising</td>
+            <td>Yes (Yandex)</td>
+        </tr>
+        <tr>
+            <td>App Interactions (ad clicks, impressions)</td>
+            <td>Yandex Mobile Ads SDK</td>
+            <td>Advertising, Analytics</td>
+            <td>Yes (Yandex)</td>
+        </tr>
+    </table>
 
-    <p><strong>The Application does NOT collect:</strong></p>
-    <ul>
-        <li>❌ IP address or network information</li>
-        <li>❌ Device identifiers (Advertising ID, Device ID)</li>
-        <li>❌ Location information (precise or approximate)</li>
-        <li>❌ Personal names, email addresses, or phone numbers</li>
-        <li>❌ App usage data or play time</li>
-        <li>❌ Operating system or device model information</li>
-        <li>❌ Payment information (processed by app stores only)</li>
-        <li>❌ Contacts, call logs, or any other personal data</li>
-    </ul>
+    <h3>Data NOT Collected by the Application</h3>
+    
+    <div class="success-box">
+        <p><strong>The Application itself does NOT collect:</strong></p>
+        <ul>
+            <li>❌ Personal names, email addresses, or phone numbers</li>
+            <li>❌ Precise location information (GPS)</li>
+            <li>❌ Payment information (processed by app stores only)</li>
+            <li>❌ Contacts, call logs, or messages</li>
+            <li>❌ Photos, videos, or audio recordings</li>
+            <li>❌ Health or fitness information</li>
+            <li>❌ Browsing history outside the Application</li>
+        </ul>
+    </div>
 
     <p>The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features.</p>
 
@@ -129,16 +183,16 @@
     
     <div class="warning-box">
         <p><strong>⚠️ This Application uses Yandex Mobile Ads SDK for displaying advertisements.</strong></p>
-        <p><strong>Yandex Mobile Ads SDK may collect information independently from the Application.</strong></p>
+        <p><strong>Yandex Mobile Ads SDK collects information independently from the Application.</strong></p>
     </div>
 
-    <p>While the Application itself does not collect any data, it integrates <strong>Yandex Mobile Ads SDK</strong> for displaying advertisements. This third-party SDK may collect and process certain information according to Yandex's own privacy policy.</p>
+    <p>The Application integrates <strong>Yandex Mobile Ads SDK</strong> for displaying advertisements. This third-party SDK collects and processes certain information according to Yandex's own privacy policy.</p>
 
     <h3>Yandex Mobile Ads (Yandex Advertising Network)</h3>
     
     <ul>
         <li><strong>Purpose:</strong> Displaying personalized and non-personalized advertisements</li>
-        <li><strong>Data that may be collected by Yandex SDK:</strong> Device ID, Advertising ID (AAID/OAID), IP address, approximate location, app usage data, device model, OS version</li>
+        <li><strong>Data collected by Yandex SDK:</strong> Device ID, Advertising ID (AAID/OAID), IP address, approximate location, app usage data, device model, OS version</li>
         <li><strong>Privacy Policy:</strong> <a href="https://yandex.ru/legal/confidential/" target="_blank" rel="noopener noreferrer">https://yandex.ru/legal/confidential/</a></li>
         <li><strong>Terms of Use:</strong> <a href="https://yandex.ru/legal/mobile_ads_termsofuse/" target="_blank" rel="noopener noreferrer">https://yandex.ru/legal/mobile_ads_termsofuse/</a></li>
         <li><strong>Opt-out:</strong> You can reset your Advertising ID in device settings or enable "Opt-out of Ads Personalization"</li>
@@ -186,7 +240,19 @@
 
     <h2>Data Disclosure</h2>
 
-    <p>Since the Application itself does not collect any user data, the Service Provider has no user data to disclose. However, third-party services integrated into the Application (such as Yandex Mobile Ads SDK) may share information according to their own privacy policies.</p>
+    <div class="warning-box">
+        <p><strong>⚠️ Data may be disclosed through third-party SDKs.</strong></p>
+    </div>
+
+    <p>The Application itself does not store user data on our servers. However, third-party services integrated into the Application (such as Yandex Mobile Ads SDK) may collect and share information according to their own privacy policies.</p>
+
+    <p><strong>Data may be disclosed:</strong></p>
+    <ul>
+        <li>To advertising partners (Yandex Mobile Ads) for ad delivery</li>
+        <li>As required by law, such as to comply with a subpoena or similar legal process</li>
+        <li>When necessary to protect rights, safety, or investigate fraud</li>
+        <li>To trusted service providers who work on behalf of third-party SDKs</li>
+    </ul>
 
     <h2>Opt-Out Rights</h2>
 
@@ -202,10 +268,14 @@
     <h2>Data Retention Policy</h2>
 
     <div class="success-box">
-        <p><strong>✅ The Application does not store any user data on servers.</strong></p>
+        <p><strong>✅ The Application does not store any user data on our servers.</strong></p>
     </div>
 
-    <p>Since the Application does not collect any user information, there is no data retention policy applicable to user data. All gameplay data is stored locally on your device and is deleted when you uninstall the Application.</p>
+    <p>The Application itself does not retain user data. However, third-party SDKs (such as Yandex Mobile Ads) may retain collected data according to their own data retention policies.</p>
+
+    <p>All gameplay data is stored locally on your device and is deleted when you uninstall the Application.</p>
+
+    <p>If you have any questions about data retention by third-party SDKs, please contact the respective service providers directly.</p>
 
     <p>If you have any questions, please contact the Service Provider at <a href="mailto:oftond.official@mail.ru">oftond.official@mail.ru</a>.</p>
 
@@ -217,23 +287,34 @@
 
     <p>The Application is designed to be safe for children aged 6 and above. The Service Provider does not knowingly collect personally identifiable information from children under 6 years of age.</p>
 
-    <p>The Service Provider does not knowingly collect personally identifiable information from children. In the case the Service Provider discovers that a child under 6 has provided personal information through third-party services, please contact the Service Provider (<a href="mailto:oftond.official@mail.ru">oftond.official@mail.ru</a>) so that they will be able to take the necessary actions.</p>
+    <p>However, third-party advertising services (Yandex Mobile Ads) may collect data according to their own policies. Parents are advised to review the privacy policies of third-party services and configure device settings to limit ad tracking for children.</p>
 
-    <p><strong>Note:</strong> Third-party advertising services (Yandex Mobile Ads) may have their own age restrictions. Parents are advised to review the privacy policies of third-party services.</p>
+    <p>If you are a parent or guardian and you are aware that your child has provided personal information through third-party services, please contact the Service Provider (<a href="mailto:oftond.official@mail.ru">oftond.official@mail.ru</a>) so that they will be able to take the necessary actions.</p>
 
     <h2>Security</h2>
 
-    <p>Since the Application does not collect or transmit any user data, there is no risk of data breach from the Application itself. All game data is stored locally on your device.</p>
+    <div class="warning-box">
+        <p><strong>⚠️ Security Note:</strong></p>
+        <p>The Application itself does not store user data on our servers. However, third-party SDKs integrated into the Application may transmit and store data on their own servers.</p>
+        <p>All game data is stored locally on your device.</p>
+    </div>
 
     <h2>Changes to This Privacy Policy</h2>
 
     <p>This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.</p>
 
-    <p>This privacy policy is effective as of <strong>March 1, 2026</strong>.</p>
+    <p>This privacy policy is effective as of <strong>January 15, 2025</strong>.</p>
 
     <h2>Your Consent</h2>
 
-    <p>By using the Application, you are consenting to the use of third-party services (such as Yandex Mobile Ads SDK) as set forth in this Privacy Policy. The Application itself does not process any of your information.</p>
+    <div class="info-box">
+        <p><strong>By using the Application, you consent to:</strong></p>
+        <ul>
+            <li>✅ The use of third-party services (such as Yandex Mobile Ads SDK)</li>
+            <li>✅ The collection of data by third-party SDKs as described in this Privacy Policy</li>
+            <li>✅ The processing of data by third-party SDKs for advertising and analytics purposes</li>
+        </ul>
+    </div>
 
     <h2>Contact Us</h2>
 
@@ -245,8 +326,8 @@
     <hr>
 
     <div class="footer">
-        <p>© 2026 Oftond. All rights reserved.</p>
-        <p>Penguins: Merge & War - Privacy Policy Version 1.2</p>
+        <p>© 2025 Oftond. All rights reserved.</p>
+        <p>Penguins: Merge & War - Privacy Policy Version 1.3</p>
     </div>
 
 </body>
